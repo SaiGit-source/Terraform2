@@ -28,7 +28,7 @@ module "eks" {
   }
 
   eks_managed_node_groups = {
-    tq-cluster-wg = {
+    pipeline-cluster-wg = {
       min_size     = 1
       max_size     = 2
       desired_size = 1
